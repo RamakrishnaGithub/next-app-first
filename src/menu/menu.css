@@ -1,0 +1,18 @@
+.menu{
+margin: 0;
+text-align: right;
+list-style-type: none;
+background-color: rgb(78, 79, 83);
+line-height: 30px;
+padding: 0;
+
+}
+.menu>li{   
+display: inline;
+margin-right: 50px;
+font-size: 18px;
+letter-spacing: 2px;
+cursor: pointer;
+color: blueviolet;
+text-decoration: none;
+}

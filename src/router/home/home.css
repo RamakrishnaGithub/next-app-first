@@ -1,0 +1,14 @@
+
+.carousel{
+    padding: 3px;
+   
+}
+.cardContainer{
+    padding: 3px;
+    display: flex;
+    overflow-x: hidden;
+   
+}
+.cardcontainer:hover{
+    box-shadow: 0 0 0 5px  lightgray;
+}
