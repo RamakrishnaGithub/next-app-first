@@ -42,7 +42,7 @@ function Home() {
         }
       </Carousel>
     </div>
-    <div className='mt-1 border border-dark-subtle p-3 m-1 position-relative'>
+    <div className='mt-1 border border-dark-subtle p-3 m-1 position-relative '>
       <div className='m-0 p-1 fs-5 fw-bold'><span>you visited recently!</span><span style={{ position: 'absolute', right: '20px' }} className=" bi bi-arrow-right-circle-fill fs-4 ms-2" ></span></div>
       <div className='cardContainer'>{
         cardData.map(({ src, title, subtitle }, cardind) => {
