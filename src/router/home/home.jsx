@@ -13,7 +13,7 @@ function Home() {
   return (<div>
 
 
-    <div class="bg-body-secondary m-1 d-flex flex-row overflow-x-scroll justify-content-center">
+    <div className="bg-body-secondary m-1 d-flex flex-row overflow-x-scroll justify-content-center">
       {
         menuitems.map(({ src, title }, index) => {
           return <div className="m-1 p-1 " key={index}><img className="w-50 h-50" src={src} alt="" /><p className=" fw-bold p-1">{title}</p></div>
